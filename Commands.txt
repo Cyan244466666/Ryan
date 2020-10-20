@@ -1,0 +1,45 @@
+Elements:
+Paragraph:		<p> </p>
+Heading:		<h1> </h1>
+Line Break:		<br>
+Horizontal Rule:        <hr>
+Preformatted text:      <pre> </pre>
+			
+
+Images:			<img src="[folder]/[image.png]" alt= "[new_image_name]">
+Hyperlinks: 		<a href="[URL link]'>
+Absolute URL:          	<src="[link_external_image]/[folder]/[image.png]">
+Relative URL (Page):    <src="[image.png]">
+Relative URL (Domain):  <src="/images/img-girl.jpg">
+
+Attributes:
+Attributes:		name= "value"
+Title:                  title= "[title_name]"
+Width (images):         width= "10px"
+Height (images):     	height= "10px"
+
+Styles:			<[tag] style= "[property]:[value];"> [text] <[close tag]>
+Style Attributes:       <[tag] style= "[property]:[value];">
+[Text]:
+Color:                  color:"[value];"
+Set Font:      		font-family:"[value];"
+Font-Size:		font-size:"[value];"  
+Text Color:             color:"[value];"
+Text Alignment:         text-align:"[value];"
+Bold Text:		<b> </b>
+Strong Text:		<strong> </strong>
+Italic Text:		<i> </i>
+Emphasized Text:	<em> </em>
+Marked/Highlighted:	<mark> </mark>
+Smaller Text:		<small> </small>
+Deleted (line through): <del> </del>
+Inserted Text:		<ins> </ins>
+Subscript:		<sub> </sub>
+Supscript:		<sup> </sup>
+Blockquote (indents):   <blockquote cite = [URL address]> </blockquote>
+Short Quotations (""):  <q> </q>
+Abbreviation/Acronym:   <abbr> </abbr>
+Acronym with Title:     <abbr title="[value]"> </abbr>
+[Background]:
+Background Color:	background-color:"[value];"
+
