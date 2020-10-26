@@ -22,18 +22,46 @@ header.home_header {
 }
 
 
-
 header.home_header .menu {
   margin: 15;
   margin-left: 0px;
   padding: 5;
   list-style-type: none;
   position: absolute;
-  top: 190px; left: -18px;
+  top: 190px; left: -19px;
   font: 20px/22px "Helvetica", Times, serif;  
+  border
 }
 
+.header-back{
+  width: 20px;
+  height: auto;
+  margin-left: 297px;
+  top: -210px; left: -18px;
+  position: absolute;
+}
 
+.logo{
+  width: 0px;
+  height: auto;
+  margin-left: 297px;
+  top: -190px; left: -10px;
+  position: absolute;
+  filter: brightness(1000%);
+}
+
+.instagram_button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 
 

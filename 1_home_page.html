@@ -1,37 +1,27 @@
 <!DOCTYPE html>
 <html lang= "en-US">
   <head>
+   <style>
+     .hello::before{
+	 content: "";
+	 top: 0px;
+	 left: 0px;
+	 right: 0px;
+	 bottom: 0px;
+	 position: absolute;
+	 z-index: -1;
+	 border: var(--border-size) solid var(--background-color);
+	 transition: top, left, right, bottom, 100ms, ease-in-out;
+	 }
+   </style>
    <title>
-     Contacts Page
+     Home Page
    </title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
   
-  <!-- HTML Link Test:
-    <a href="https://www.w3schools.com"> Paragraph 1 </a>
-    <!-- Display Image Test:
-    <img src= "images/chen.png" alt="Chen Card Art" width= "30%" height= "auto">
-    <!-- Display Style Test:
-    <p style="color:red;"> This text will be Red </p>
-    <!-- Display Title Test:
-    <p title= "This is a Test"> Test text.</p>
-    <!-- Editing Header Font-Size Test:
-    <h1> Header Test (normal size) </h1>
-    <h2 style= font-size:"30rem;"> Header Test (smaller) </h2>
-    <!-- Adding <pre> Tag Test:
-	<pre>
-	Hello, this is Ryan Bolson,
-	Coming at you live,
-	Through the power of Jesus Christ's beard.
-	</pre>
-	<!-- Changing Font Test:
-	<p style:"font-family:Courier;"> This text should be in Courier. </p>
-	<!-- Alignment of Text Test:
-	<p style="text-align:center;"> This text should be centered. </p>
-	<!-- Text Quatation Test:
-	<p>Mustang looked up and said: <q> I can't see, I've lost my eyesight. </q> </p>
-  -->
+ <!-- Header -->
 
 <header class="home_header">
  <img src="images/header_bar_home.png">
@@ -45,7 +35,16 @@
    <a href="5_contact_page.html" style="position: relative; margin-left:60px;">Contact</a>
  </li>
   
+  <div class="header-back">
+  <img src="images/header_home_back.png"> 
+  </div>
+  
+  <div class="logo">
+  <img src="images/header_logo_3.png"> 
+  </div>
+ 
 
+ 
  
   
    
