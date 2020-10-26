@@ -1,15 +1,25 @@
-.home_header_text
-{
-text-align:center;
-letter-spacing: 2px;
-padding: 0px
-display: inline;
+h1 {
+  clear: both;
+  font: 36px/36px SelznickBold;
+  color: #f5e56f;
+  text-shadow: 0px 0px 5px #ff5f00;
+  margin: 15px 0 10px 0;
 }
 
-.girl_image
+header.home_header
 {
-width: 10%; 
-height: auto; 
-justify-content: center;
+  padding: 1px;
+  position: relative;
+  margin: 25px auto 0 auto;
+  width: 750px;
+  height: 209px;
 }
 
+header.home_header .menu
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 96px; left: 60px;
+}
