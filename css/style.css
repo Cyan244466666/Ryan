@@ -19,6 +19,7 @@ header.home_header {
   margin: 27px auto 0 auto;
   width: 750px;
   height: 209px;
+  text-decoration: none;
 }
 
 
@@ -31,7 +32,14 @@ header.home_header .menu {
   top: 190px; left: -19px;
   font: 20px/22px "Helvetica", Times, serif;  
   border
+  text-decoration: none;
 }
+
+
+header.home_header a:link{
+  text-decoration: none;
+}
+
 
 .header-back{
   width: 20px;
