@@ -82,6 +82,19 @@ header.home_header a:hover
   cursor: pointer;
 }
 
+div.cat_frame img
+{
+  width: 250px;
+  height: auto;
+  display: block;
+}
+
+div.cat_animation img
+{
+  width: 250px;
+  height: auto;
+  display: block;
+}
 
 
 

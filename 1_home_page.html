@@ -8,11 +8,30 @@
   {
     text-decoration: none;
   }
+  
   header.home_header a:link
   {
     text-decoration: underline;
   }
-	</script>
+  </script>
+  <script>
+   function hide()
+  {
+    var div = document.getElementById("cat");
+	div.style.display="none";
+	var div = document.getElementById("cat_2");
+	div.style.display="block";
+  }
+  </script>
+  <script>
+   function show()
+  {
+    var div = document.getElementById("cat");
+	div.style.display="block";
+	var div = document.getElementById("cat_2");
+	div.style.display="none";
+  }
+  </script>
    <title>
      Home Page
    </title>
@@ -42,6 +61,13 @@
   <img src="images/header_logo_3.png"> 
   </div>
  
+ <div class="cat_frame" id="cat">
+  <img onclick="hide();" src="images/cat_animation/cat_frame.png">  
+ </div>
+ 
+ <div class="cat_animation" id="cat_2">
+  <img onclick="show();" src="images/cat_animation/cat_animation.gif">  
+ </div>
  
 
  
