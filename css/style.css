@@ -6,14 +6,16 @@
 </head>
 <body>
 
-h1 {
+h1 
+{
   clear: both;
   color: #f5e56f;
   text-shadow: 0px 0px 5px #ff5f00;
   margin: 15px 0 10px 0;
 }
 
-header.home_header {
+header.home_header 
+{
   padding: 0px;
   position: relative;
   margin: 27px auto 0 auto;
@@ -23,7 +25,8 @@ header.home_header {
 }
 
 
-header.home_header .menu {
+header.home_header .menu 
+{
   margin: 15;
   margin-left: 0px;
   padding: 5;
@@ -36,8 +39,16 @@ header.home_header .menu {
 }
 
 
-header.home_header a:link{
+header.home_header a:link
+{
   text-decoration: none;
+  opacity: 0.5;
+}
+
+
+header.home_header a:hover
+{
+  opacity: 1;
 }
 
 
