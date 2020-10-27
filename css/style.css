@@ -60,7 +60,8 @@ header.home_header a:hover
   position: absolute;
 }
 
-.logo{
+.logo
+{
   width: 0px;
   height: auto;
   margin-left: 297px;
@@ -69,7 +70,8 @@ header.home_header a:hover
   filter: brightness(1000%);
 }
 
-.instagram_button {
+.instagram_button 
+{
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -84,19 +86,63 @@ header.home_header a:hover
 
 div.cat_frame img
 {
-  width: 250px;
+  width: 180px;
   height: auto;
   display: block;
+  top: -190px; left: -20px;
+  position: absolute;
+  
 }
 
 div.cat_animation img
 {
-  width: 250px;
+  width: 190px;
   height: auto;
   display: block;
+  top: -200px; left: -20px;
+  position: absolute;
+  
 }
 
+div.troll_frame img
+{
+  width: 180px;
+  height: auto;
+  display: block;
+  top: -153px; left: 115px;
+  position: absolute;
+  
+}
 
+div.troll_animation img
+{
+  width: 180px;
+  height: auto;
+  display: block;
+  top: -153px; left: 115px;
+  position: absolute;
+  
+}
+
+div.chilli_frame img
+{
+  width: 180px;
+  height: auto;
+  display: block;
+  top: -140px; left: 270px;
+  position: absolute;
+  
+}
+
+div.chilli_animation img
+{
+  width: 180px;
+  height: auto;
+  display: block;
+  top: -140px; left: 270px;
+  position: absolute;
+  
+}
 
 
 
