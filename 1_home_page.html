@@ -1,95 +1,65 @@
 <!DOCTYPE html>
-<html lang= "en-US">
-  <head>
-  <style type = "text/css">
-  </style>
-  <script>
-  a
-  {
-    text-decoration: none;
-  }
-  
-  header.home_header a:link
-  {
-    text-decoration: underline;
-  }
-  </script>
-  <script>
-   function hide()
-  {
-    var div = document.getElementById("cat");
-	div.style.display="none";
-	var div = document.getElementById("cat_2");
-	div.style.display="block";
-  }
-  </script>
-  <script>
-   function show()
-  {
-    var div = document.getElementById("cat");
-	div.style.display="block";
-	var div = document.getElementById("cat_2");
-	div.style.display="none";
-  }
-  </script>
-   <title>
-     Home Page
-   </title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-  </head>
-  <body>
-  
- <!-- Header -->
+<html lang="en-US">
+<head>
+    <style type="text/css">
+        a {
+            text-decoration: none;
+        }
+
+        header.home_header a:link {
+            text-decoration: underline;
+        }
+    </style>
+    <script src="js/main.js"></script>
+    <title>
+        Home Page
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+
+<!-- Header -->
 
 <header class="home_header">
- <img src="images/header_bar_home.png">
- 
- <ul class="menu">
- <li class="home_header">
-   <a href="1_home_page.html" style="position: relative;">Home</a>
-   <a href="2_characters_page.html" style="position: relative; margin-left:60px;">Characters</a>
-   <a href="3_pixel_art_page.html" style="position: relative; margin-left:60px;">Pixel Art</a>
-   <a href="4_animation_page.html" style="position: relative; margin-left:60px;">Animation</a>
-   <a href="5_contact_page.html" style="position: relative; margin-left:60px;">Contact</a>
- </li>
-  
-  <div class="header-back">
-  <img src="images/header_home_back.png"> 
-  </div>
-  
-  <div class="logo">
-  <img src="images/header_logo_3.png"> 
-  </div>
- 
- <div class="cat_frame" id="cat">
-  <img onclick="hide();" src="images/cat_animation/cat_frame.png">  
- </div>
- 
- <div class="cat_animation" id="cat_2">
-  <img onclick="show();" src="images/cat_animation/cat_animation.gif">  
- </div>
- 
+    <img src="images/header_bar_home.png" alt="banner">
 
- 
- 
- <!-- Lab Exercise
- 
- <button> 
-   <a onclick="show();" href="#">Projects</a>
-   <a onclick="hide();" href="#"></a>
- </button>
- 
- <div id="projects" style="background: cyan; border-bottom: 1px solid black; display:none;">
- <img style="height: 150px; id" src="images/tiger_lady.png">
- <img style="height: 150px" src="images/filia_sketch.png">
- <img onclick="hide()" style="position= relative; margin-left: 385px;" src="images/exit_symbol.png">
-</div>
--->
+    <ul class="menu">
+        <li class="home_header">
+            <a href="1_home_page.html" style="position: relative;">Home</a>
+            <a href="2_characters_page.html" style="position: relative; margin-left:60px;">Characters</a>
+            <a href="3_pixel_art_page.html" style="position: relative; margin-left:60px;">Pixel Art</a>
+            <a href="4_animation_page.html" style="position: relative; margin-left:60px;">Animation</a>
+            <a href="5_contact_page.html" style="position: relative; margin-left:60px;">Contact</a>
+        </li>
+    </ul>
 
- 
- 
-  
-   
-   
-  </body>
+    <div class="header-back">
+        <img src="images/header_home_back.png">
+    </div>
+
+    <div class="logo">
+        <img src="images/header_logo_3.png">
+    </div>
+
+    <div class="cat_frame">
+        <img id="cat" onclick="play_cat_animation();" src="images/cat_animation/cat_frame.PNG">
+    </div>
+
+
+        <!-- Lab Exercise
+
+        <button>
+          <a onclick="show();" href="#">Projects</a>
+          <a onclick="hide();" href="#"></a>
+        </button>
+
+        <div id="projects" style="background: cyan; border-bottom: 1px solid black; display:none;">
+        <img style="height: 150px; id" src="images/tiger_lady.png">
+        <img style="height: 150px" src="images/filia_sketch.png">
+        <img onclick="hide()" style="position= relative; margin-left: 385px;" src="images/exit_symbol.png">
+       </div>
+       -->
+
+
+</body>
 </html>
