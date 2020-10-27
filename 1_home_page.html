@@ -18,10 +18,15 @@
    
   </script>
   <script>
+  
+  <!-- Java Script Functions for the Header Animations !-->
+  
    const cat_image_gif = "images/cat_animation/cat_animation_4.gif";
    const troll_image_gif = "images/troll_animation/troll_run_animation.gif";
    const chilli_image_gif = "images/chilli_crocodile_animation/chilli_crocodile_animation_2.gif";
    const cute_image_gif = "images/cute_animation/cute_animation_3.gif";
+   const birdo_image_gif = "images/birdo_animation/birdo_animation.gif";
+   
    function play_cat_animation()
   {
     document.getElementById("cat").src = cat_image_gif;
@@ -41,6 +46,11 @@
   function play_cute_animation()
   {
     document.getElementById("cute").src = cute_image_gif;
+  }
+  
+    function play_birdo_animation()
+  {
+    document.getElementById("birdo").src = birdo_image_gif;
   }
   
  
@@ -91,8 +101,15 @@
   <a href="#"> <img id="cute" onclick="play_cute_animation();" src="images/cute_animation/cute_frame.png">  
  </div>
  
+ <div class="birdo_frame">
+  <a href="#"> <img id="birdo" onclick="play_birdo_animation();" src="images/birdo_animation/birdo_frame.png">  
+ </div>
  
-
+ <!-- Social Media Buttons -->
+ 
+ <div class="instagram_icon">
+  <a href="https://www.instagram.com/ryan.bolson/"> <img id="instagram_logo" src="images/instagram_icon.png">
+ </div>
  
 
  

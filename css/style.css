@@ -70,19 +70,6 @@ header.home_header a:hover
   filter: brightness(1000%);
 }
 
-.instagram_button 
-{
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
 
 div.cat_frame img
 {
@@ -164,7 +151,32 @@ div.cute_animation img
   
 }
 
+div.birdo_frame img
+{
+  width: 140px;
+  height: auto;
+  display: block;
+  top: -130px; left: 575px;
+  position: absolute;
+  
+}
 
+div.birdo_animation img
+{
+  width: 140px;
+  height: auto;
+  display: block;
+  top: -130px; left: 575px;
+  position: absolute;
+  
+}
+
+div.instagram_icon img
+{
+  width: 28px;
+  top: -220px; left: 687px;
+  position: absolute;
+}
 
 
 
