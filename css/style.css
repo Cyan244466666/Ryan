@@ -144,6 +144,26 @@ div.chilli_animation img
   
 }
 
+div.cute_frame img
+{
+  width: 150px;
+  height: auto;
+  display: block;
+  top: -150px; left: 435px;
+  position: absolute;
+  
+}
+
+div.cute_animation img
+{
+  width: 150px;
+  height: auto;
+  display: block;
+  top: -150px; left: 435px;
+  position: absolute;
+  
+}
+
 
 
 
