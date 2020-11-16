@@ -1,0 +1,120 @@
+<html>
+ <head>
+ <title>HTML5 Canvas</title>
+ <link rel="labstylesheet" type="text/css" href="css/labstyle.css" />
+ <script>
+ var x = 10;
+ var playerImage;
+ var frame = 1;
+ var dir = 0;
+ var xmov = 0;
+ 
+ function main()
+{
+	
+	var canvas = document.getElementById("canvas");
+	canvas.width = 640;
+	canvas.height = 480;
+ 
+ 
+	var ctx = canvas.getContext('2d');
+	load();
+
+	draw(ctx);
+	
+	
+}
+function draw(ctx)
+{
+
+	ctx.fillStyle = 'gray';
+
+	ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+	
+	var clip = {};
+	clip.x = 0;
+	clip.y = 0;
+	clip.w = playerImage.width / 8;
+	clip.h = playerImage.height / 2;
+	
+
+	
+	var clamp = parseInt(frame) % 8;
+	clip.x += clip.w * clamp;
+	clip.y += clip.h * dir;
+	
+	ctx.drawImage(playerImage, clip.x, clip.y, clip.w, clip.h, x, 0, clip.w, clip.h);
+	
+	frame += 0.15;
+	if(xmov != 0)
+	{
+	if(xmov < 0)
+	{
+		dir = 1;
+	}
+	else
+	{
+		dir = 0;
+	}
+		x += xmov;
+	}
+	else
+	{
+		frame = 0;
+	}
+	
+	
+	
+	window.requestAnimationFrame(function(){draw(ctx);});
+
+}
+
+function load()
+{
+	playerImage = new Image();
+ 
+	playerImage.src = "troll_spritesheet3.png";
+}
+
+function keydown(event)
+{
+ if(event.key == "ArrowLeft")
+ {
+	xmov = -1;
+
+ }
+ else if(event.key == "ArrowRight")
+ {
+	xmov = 1;
+ }
+}
+ 
+function keyup(event)
+{
+	
+ if(event.key == "ArrowLeft")
+ {
+	xmov = 0;
+	
+	
+	
+ }
+ else if(event.key == "ArrowRight")
+ {
+	xmov = 0;
+	
+	
+	
+ }
+}
+
+window.addEventListener("keydown", keydown);
+window.addEventListener("keyup", keyup);
+window.onload = main;
+
+ </script>
+ </head>
+ <body>
+ <canvas id="canvas" style="background: gray"></canvas>
+ </body>
+</html>
