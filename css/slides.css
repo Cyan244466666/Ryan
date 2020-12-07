@@ -7,13 +7,27 @@ div.slides_button_left{
 
 }
 
-div.slideshow_images{
+div.slides_button_right{
     width: 30%;
     height: auto;
     display: block;
-    top: 0rem; left: 32rem;
-    position: relative;
+    top: 27rem; left: 100rem;
+    position: absolute;
+
+}
+
+div.slideshow_images{
+    width: 100%;
+    height: auto;
+    display: block;
+    top: 17.5rem; left: 35rem;
+
+    position: absolute;
     padding: 5rem;
     transition-timing-function: ease-in;
 }
 
+#troll_run{
+    top: 20rem; left: 35rem;
+    position: relative;
+}
