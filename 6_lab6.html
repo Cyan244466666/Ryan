@@ -8,13 +8,13 @@
  var frame = 1;
  var dir = 0;
  var xmov = 0;
- 
+ var nonInteractive = true;
  function main()
 {
 	
 	var canvas = document.getElementById("canvas");
-	canvas.width = 640;
-	canvas.height = 480;
+	canvas.width = window.innerWidth;
+	canvas.height = 200;
  
  
 	var ctx = canvas.getContext('2d');
@@ -24,28 +24,29 @@
 	
 	
 }
-function draw(ctx)
-{
+function draw(ctx) {
 
-	ctx.fillStyle = 'gray';
+ ctx.fillStyle = 'black';
 
-	ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-	
-	var clip = {};
-	clip.x = 0;
-	clip.y = 0;
-	clip.w = playerImage.width / 8;
-	clip.h = playerImage.height / 2;
-	
+ ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
-	
-	var clamp = parseInt(frame) % 8;
-	clip.x += clip.w * clamp;
-	clip.y += clip.h * dir;
-	
-	ctx.drawImage(playerImage, clip.x, clip.y, clip.w, clip.h, x, 0, clip.w, clip.h);
-	
-	frame += 0.15;
+ var clip = {};
+ clip.x = 0;
+ clip.y = 0;
+ clip.w = playerImage.width / 8;
+ clip.h = playerImage.height / 2;
+
+
+ var clamp = parseInt(frame) % 8;
+ clip.x += clip.w * clamp;
+ clip.y += clip.h * dir;
+
+ ctx.drawImage(playerImage, clip.x, clip.y, clip.w, clip.h, x, -35, clip.w, clip.h);
+
+ frame += 0.15;
+ if (nonInteractive == true){
+  xmov = 1;
+}
 	if(xmov != 0)
 	{
 	if(xmov < 0)
@@ -78,8 +79,10 @@ function load()
 
 function keydown(event)
 {
+ nonInteractive = false;
  if(event.key == "ArrowLeft")
  {
+
 	xmov = -1;
 
  }
@@ -91,7 +94,7 @@ function keydown(event)
  
 function keyup(event)
 {
-	
+
  if(event.key == "ArrowLeft")
  {
 	xmov = 0;
@@ -114,7 +117,8 @@ window.onload = main;
 
  </script>
  </head>
- <body>
- <canvas id="canvas" style="background: gray"></canvas>
+ <body style="margin: 0px;">
+
+ <canvas id="canvas" style="background: black"></canvas>
  </body>
 </html>

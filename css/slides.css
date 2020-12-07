@@ -1,0 +1,19 @@
+div.slides_button_left{
+    width: 30%;
+    height: auto;
+    display: block;
+    top: 27rem; left: 15rem;
+    position: absolute;
+
+}
+
+div.slideshow_images{
+    width: 30%;
+    height: auto;
+    display: block;
+    top: 0rem; left: 32rem;
+    position: relative;
+    padding: 5rem;
+    transition-timing-function: ease-in;
+}
+
