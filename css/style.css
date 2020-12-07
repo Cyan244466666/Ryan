@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-</style>
-</head>
-<body>
 
-h1 
-{
+
+h1{
   clear: both;
   color: #f5e56f;
   text-shadow: 0px 0px 5px #ff5f00;
   margin: 15px 0 10px 0;
 }
 
-header.home_header 
-{
+header.home_header{
   padding: 0px;
   position: relative;
   margin: 27px auto 0 auto;
@@ -25,19 +17,26 @@ header.home_header
 }
 
 
-header.home_header .menu 
-{
-  margin: 15;
-  margin-left: 0px;
-  padding: 5;
+header.home_header{
+  position: relative;
+  padding: 5rem;
   list-style-type: none;
-  position: absolute;
-  top: 190px; left: -19px;
-  font: 20px/22px "Helvetica", Times, serif;  
-  border
+  top: 10rem; left: -1rem;
+  font: 20px/22px "Helvetica", Times, serif;
   text-decoration: none;
 }
 
+header.home_header .cat_frame {
+  position: relative;
+  top: 50px;
+  left: -1px;
+}
+
+header.home_header .troll_frame{
+  position: relative;
+  top: 50px;
+  left: -1px;
+}
 
 header.home_header a:link
 {
@@ -60,8 +59,7 @@ header.home_header a:hover
   position: absolute;
 }
 
-.logo
-{
+.logo{
   width: 0px;
   height: auto;
   margin-left: 297px;
@@ -71,8 +69,7 @@ header.home_header a:hover
 }
 
 
-div.cat_frame img
-{
+div.cat_frame img{
   width: 180px;
   height: auto;
   display: block;
@@ -81,8 +78,7 @@ div.cat_frame img
   
 }
 
-div.cat_animation img
-{
+div.cat_animation img{
   width: 190px;
   height: auto;
   display: block;
@@ -91,8 +87,7 @@ div.cat_animation img
   
 }
 
-div.troll_frame img
-{
+div.troll_frame img{
   width: 180px;
   height: auto;
   display: block;
@@ -101,8 +96,7 @@ div.troll_frame img
   
 }
 
-div.troll_animation img
-{
+div.troll_animation img{
   width: 180px;
   height: auto;
   display: block;
@@ -111,8 +105,7 @@ div.troll_animation img
   
 }
 
-div.chilli_frame img
-{
+div.chilli_frame img{
   width: 180px;
   height: auto;
   display: block;
@@ -121,8 +114,7 @@ div.chilli_frame img
   
 }
 
-div.chilli_animation img
-{
+div.chilli_animation img{
   width: 180px;
   height: auto;
   display: block;
@@ -131,8 +123,7 @@ div.chilli_animation img
   
 }
 
-div.cute_frame img
-{
+div.cute_frame img{
   width: 150px;
   height: auto;
   display: block;
@@ -141,8 +132,7 @@ div.cute_frame img
   
 }
 
-div.cute_animation img
-{
+div.cute_animation img{
   width: 150px;
   height: auto;
   display: block;
@@ -151,8 +141,7 @@ div.cute_animation img
   
 }
 
-div.birdo_frame img
-{
+div.birdo_frame img{
   width: 140px;
   height: auto;
   display: block;
@@ -161,8 +150,7 @@ div.birdo_frame img
   
 }
 
-div.birdo_animation img
-{
+div.birdo_animation img{
   width: 140px;
   height: auto;
   display: block;
@@ -171,8 +159,7 @@ div.birdo_animation img
   
 }
 
-div.instagram_icon img
-{
+div.instagram_icon img{
   width: 28px;
   top: -220px; left: 687px;
   position: absolute;
@@ -182,5 +169,3 @@ div.instagram_icon img
 
 
 
-</body>
-</html>
