@@ -2,7 +2,7 @@ div.slides_button_left{
     width: 30%;
     height: auto;
     display: block;
-    top: 27rem; left: 15rem;
+    top: 38rem; left: 31rem;
     position: absolute;
 
 }
@@ -11,16 +11,27 @@ div.slides_button_right{
     width: 30%;
     height: auto;
     display: block;
-    top: 27rem; left: 100rem;
+    top: 38rem; left: 80rem;
     position: absolute;
 
 }
+
+div.slides_button_right a:hover{
+    opacity: 70%;
+    color: aliceblue;
+}
+
+div.slides_button_left a:hover{
+    opacity: 70%;
+    color: aliceblue;
+}
+
 
 div.slideshow_images{
     width: 100%;
     height: auto;
     display: block;
-    top: 17.5rem; left: 35rem;
+    top: 18rem; left: 35rem;
 
     position: absolute;
     padding: 5rem;
