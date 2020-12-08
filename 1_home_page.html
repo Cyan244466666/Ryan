@@ -4,61 +4,6 @@
   <style type = "text/css">
       .slides {display: none;}
   </style>
-  <script>
-  
-  <!-- Java Script Functions for the Header Animations !-->
-  
-   const cat_image_gif = "images/cat_animation/cat_animation_4.gif";
-   const troll_image_gif = "images/troll_animation/troll_run_animation.gif";
-   const chilli_image_gif = "images/chilli_crocodile_animation/chilli_crocodile_animation_2.gif";
-   const cute_image_gif = "images/cute_animation/cute_animation_3.gif";
-   const birdo_image_gif = "images/birdo_animation/birdo_animation.gif";
-   
-   function play_cat_animation(){
-    document.getElementById("cat").src = cat_image_gif;
-  }
-  
-
-   function play_troll_animation(){
-    document.getElementById("troll").src = troll_image_gif;
-  }
-  
-    function play_chilli_animation(){
-    document.getElementById("chilli").src = chilli_image_gif;
-  }
-  
-  function play_cute_animation(){
-    document.getElementById("cute").src = cute_image_gif;
-  }
-  
-    function play_birdo_animation(){
-    document.getElementById("birdo").src = birdo_image_gif;
-  }
-
-  <!-- Java Script Functions for Slideshow -->
-  var slideIndex = 1;
-  showDivs(slideIndex);
-
-  function plusDivs(n){
-      showDivs(slideIndex += n);
-  }
-
-  function showDivs(n){
-      var i;
-      var x = document.getElementsByClassName("slides");
-      if (n > x.length){
-          slideIndex = 1
-      }
-      if (n < 1){
-          slideIndex = x.length;
-      }
-      for(i = 0; i < x.length; i++){
-          x[i].style.display = "none";
-      }
-      x[slideIndex - 1].style.display = "block";
-  }
-
-  </script>
    <title>
      Home Page
    </title>
@@ -118,7 +63,7 @@
 
       </ul>
   </header>
-<div class = "slides_div">
+
     <!-- Slide Show !-->
   <div class = "slideshow_images">
       <img class = "slides" src="slide_images/slide_1.jpg" style="width:30%">
@@ -145,9 +90,9 @@
   <div class="slides_button_left">
       <a href="#"> <img id="left" onclick="plusDivs(-1);" src="images/slide_button_left.PNG" style="width:10%"> </a>
   </div>
-      <div class="slides_button_right" style =@ >
+      <div class="slides_button_right">
           <a href="#"> <img id="right" onclick="plusDivs(1);" src="images/slide_button_right.PNG" style="width:10%"> </a>
-      </div>
+
   </button>
 </div>
           <!-- Lab Exercise
@@ -167,7 +112,61 @@
 
   </iframe>
 
+  <script>
 
+      <!-- Java Script Functions for the Header Animations !-->
+
+      const cat_image_gif = "images/cat_animation/cat_animation_4.gif";
+      const troll_image_gif = "images/troll_animation/troll_run_animation.gif";
+      const chilli_image_gif = "images/chilli_crocodile_animation/chilli_crocodile_animation_2.gif";
+      const cute_image_gif = "images/cute_animation/cute_animation_3.gif";
+      const birdo_image_gif = "images/birdo_animation/birdo_animation.gif";
+
+      function play_cat_animation(){
+          document.getElementById("cat").src = cat_image_gif;
+      }
+
+
+      function play_troll_animation(){
+          document.getElementById("troll").src = troll_image_gif;
+      }
+
+      function play_chilli_animation(){
+          document.getElementById("chilli").src = chilli_image_gif;
+      }
+
+      function play_cute_animation(){
+          document.getElementById("cute").src = cute_image_gif;
+      }
+
+      function play_birdo_animation(){
+          document.getElementById("birdo").src = birdo_image_gif;
+      }
+
+      <!-- Java Script Functions for Slideshow -->
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n){
+          showDivs(slideIndex += n);
+      }
+
+      function showDivs(n){
+          var i;
+          var x = document.getElementsByClassName("slides");
+          if (n > x.length){
+              slideIndex = 1
+          }
+          if (n < 1){
+              slideIndex = x.length;
+          }
+          for(i = 0; i < x.length; i++){
+              x[i].style.display = "none";
+          }
+          x[slideIndex - 1].style.display = "block";
+      }
+      showDivs(1);
+  </script>
 
   </body>
 

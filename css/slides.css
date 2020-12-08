@@ -2,7 +2,7 @@ div.slides_button_left{
     width: 30%;
     height: auto;
     display: block;
-    top: 38rem; left: 30rem;
+    top: 62%; left: 25%;
     position: absolute;
 
 }
@@ -11,7 +11,7 @@ div.slides_button_right{
     width: 30%;
     height: auto;
     display: block;
-    top: 38rem; left: 80rem;
+    top: 62%; left: 66%;
     position: absolute;
 
 }
@@ -32,10 +32,11 @@ div.slideshow_images{
     width: 100%;
     height: auto;
     display: block;
-    top: 3rem; left: 38rem;
+    top: 20%; left: 32%;
     position: relative;
     padding: 0rem;
     transition-timing-function: ease-in;
+
 }
 
 div.slideshow_div{
