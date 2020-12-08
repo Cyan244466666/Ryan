@@ -2,7 +2,7 @@ div.slides_button_left{
     width: 30%;
     height: auto;
     display: block;
-    top: 38rem; left: 31rem;
+    top: 38rem; left: 30rem;
     position: absolute;
 
 }
@@ -28,14 +28,18 @@ div.slides_button_left a:hover{
 
 
 div.slideshow_images{
+
     width: 100%;
     height: auto;
     display: block;
-    top: 18rem; left: 35rem;
-
-    position: absolute;
-    padding: 5rem;
+    top: 3rem; left: 38rem;
+    position: relative;
+    padding: 0rem;
     transition-timing-function: ease-in;
+}
+
+div.slideshow_div{
+    max-width: 100rem;
 }
 
 #troll_run{
