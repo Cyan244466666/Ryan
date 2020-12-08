@@ -1,0 +1,24 @@
+.footer {
+    position: fixed;
+    left: 1%;
+    bottom: 0%;
+    width: 100%;
+    background-color: black;
+    color: cyan;
+    text-align: left;
+}
+.footer_logo{
+    position: relative;
+    top: -20%;
+    left: 40%;
+    width: 4%;
+    padding: 0;
+    display: none;
+}
+
+footer_copy{
+    position: relative;
+    text-align: center;
+    bottom: 0px;
+    padding: 3%;
+}
