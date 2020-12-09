@@ -1,34 +1,18 @@
 html, body{
   max-width: 100%;
   overflow-x: hidden;
-}
-
-h1{
-  clear: both;
-  color: aliceblue;
-
-  margin: 15px 0 10px 0;
-}
-
-body{
   background-color: black;
   color: aliceblue;
 }
-
-
 header.home_header{
 
   position: relative;
   margin: 27px auto 0 auto;
   width: 750px;
   height: 209px;
-  text-decoration: none;
-  position: relative;
   padding: 3rem;
-  list-style-type: none;
   top: -1rem; left: -1rem;
   font: 20px/22px "Helvetica", Times, serif;
-  text-decoration: none;
 
 }
 
@@ -106,7 +90,7 @@ div.cat_frame img{
   display: block;
   top: -190px; left: -20px;
   position: absolute;
-  
+
 }
 
 div.cat_animation img{
