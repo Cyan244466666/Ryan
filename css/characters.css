@@ -5,7 +5,7 @@
 
 
 .debug {
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 div {
@@ -62,9 +62,18 @@ a{
 
 
 img.image_3 {
-
     width: 35%;
     height: auto;
+}
+
+img.image_5 {
+    width: 15%;
+    height: auto;
+    justify-content: flex-end;
+}
+
+img.instagram_icon{
+
 }
 
 a:hover

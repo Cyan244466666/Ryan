@@ -15,46 +15,55 @@
   
  <!-- Header -->
 
-<header class="home_header">
- <img src="images/header_bar_characters.png">
- 
- <ul class="menu">
-  <li class="home_header">
-   <a href="1_home_page.html" style="position: relative; color: aliceblue;">Home</a>
-   <a href="2_characters_page.html" style="position: relative; margin-left:60px; color: aliceblue;">Characters</a>
-   <a href="3_pixel_art_page.html" style="position: relative; margin-left:60px; color: aliceblue;">Pixel Art</a>
-   <a href="4_animation_page.html" style="position: relative; margin-left:60px; color: aliceblue;">Animation</a>
-   <a href="5_contact_page.html" style="position: relative; margin-left:60px; color: aliceblue;">Contact</a>
-  </li>
- </ul>
-  
- 
-  <div class="cat_frame">
-      <a href="#"> <img id="cat" onclick="play_cat_animation();" src="images/cat_animation/cat_frame.png"> </a>
-  </div>
- 
-  <div class="troll_frame">
-      <a href="#"> <img id="troll" onclick="play_troll_animation();" src="images/troll_animation/troll_run_frame.png">  </a>
-  </div>
- 
-  <div class="chilli_frame">
-      <a href="#"> <img id="chilli" onclick="play_chilli_animation();" src="images/chilli_crocodile_animation/chilli_crocodile_frame.png">  </a>
-  </div>
- 
- <div class="cute_frame">
-     <a href="#"> <img id="cute" onclick="play_cute_animation();" src="images/cute_animation/cute_frame.png">  </a>
- </div>
- 
- <div class="birdo_frame">
-     <a href="#"> <img id="birdo" onclick="play_birdo_animation();" src="images/birdo_animation/birdo_frame.png">  </a>
- </div>
- 
-<!-- Social Media Buttons -->
- 
- <div class="instagram_icon">
-     <a href="https://www.instagram.com/ryan.bolson/"> <img id="instagram_logo" src="images/instagram_icon.png"> </a>
- </div>
-</header>
+ <header class="home_header">
+     <img src="images/header_bar_characters.png">
+
+     <ul class="menu">
+         <li class="home_header">
+             <a href="1_home_page.html" style="position: relative; color: azure">Home</a>
+             <a href="2_characters_page.html" style="position: relative; color: azure; margin-left:60px;">Characters</a>
+             <a href="3_pixel_art_page.html" style="position: relative; color: azure; margin-left:60px;">Pixel Art</a>
+             <a href="4_animation_page.html" style="position: relative; color: azure; margin-left:60px;">Animation</a>
+             <a href="5_contact_page.html" style="position: relative; color: azure; margin-left:60px;">Contact</a>
+         </li>
+     </ul>
+
+     <div class="header-back">
+         <img src="images/header_home_back.png">
+     </div>
+
+     <div class="logo">
+         <img src="images/header_logo_3.png">
+     </div>
+
+     <div class="cat_frame" style="top: -15rem;">
+         <a href="#"> <img id="cat" onclick="play_cat_animation();" src="images/cat_animation/cat_frame.png"> </a>
+     </div>
+
+     <div class="troll_frame" style="top: -15rem;">
+         <a href="#"> <img id="troll" onclick="play_troll_animation();" src="images/troll_animation/troll_run_frame.png"> </a>
+     </div>
+
+     <div class="chilli_frame" style="top: -16rem;">
+         <a href="#"> <img id="chilli" onclick="play_chilli_animation();" src="images/chilli_crocodile_animation/chilli_crocodile_frame.png"> </a>
+     </div>
+
+     <div class="cute_frame" style="top: -15rem;">
+         <a href="#"> <img id="cute" onclick="play_cute_animation();" src="images/cute_animation/cute_frame.png"> </a>
+     </div>
+
+     <div class="birdo_frame" style="top: -14rem;">
+         <a href="#"> <img id="birdo" onclick="play_birdo_animation();" src="images/birdo_animation/birdo_frame.png"> </a>
+     </div>
+
+     <!-- Social Media Buttons -->
+
+     <div class="instagram_icon">
+         <a href="https://www.instagram.com/ryan.bolson/"> <img style = " top: -26.5rem;" id="instagram_logo" src="images/instagram_icon.png"> </a>
+     </div>
+
+     </ul>
+ </header>
 
 
  <!-- Page Content -->
@@ -82,25 +91,29 @@
 
  <!-- Third Row -->
  <div class="debug row">
-     <div class="debug column right_2" style = "padding-top: 20rem; padding-right: 5rem; text-align: right; min-width: 10rem">
+     <div class="debug column right_2" style = "padding-top: 13rem; padding-right: 5rem; text-align: right; min-width: 10rem">
          <h1></h1>
          <p>Inspirations of mine mainly originate from popular digital </p>
          <p>illustrators, painters, and animators. Main inspirations include </p>
-         <p>include<a href="https://www.artstation.com/artwork/D5NOle"> Nurzhan Bekkaliyev</a>, <a href="http://www.goodbrush.com/"> Craig Mullins</a> <a href="https://www.artstation.com/krenz"> Krenz Cushart</a> . </p>
+         <p>include<a href="https://www.artstation.com/artwork/D5NOle"> Nurzhan Bekkaliyev</a>, <a href="http://www.goodbrush.com/"> Craig Mullins</a>, <a href="https://www.artstation.com/krenz"> Krenz Cushart</a> . </p>
      </div>
-
-
-     <div class="debug left" style = "max-height: 40rem; padding-right: 0rem; padding-top: 5rem">
+     <div class="debug left" style = "max-height: 40rem; padding-right: 0rem; max-height: 40rem; padding-top: 5rem">
          <h1></h1>
          <img class="image_3" src="images/image_3.jpg">
      </div>
-
  </div>
 
+ <!-- Fourth Row -->
+ <div class="debug row middle" style = "padding-top: 3rem;">
+     <img class="image_2" src="images/image_4.png">
+ </div>
 
-
-
-
+ <!-- Interactable Troll -->
+<div class="debug row middle" style = "padding-top: 5rem">
+    <img class="image_5" src="images/image_5.png" style="text-align: center">
+</div>
+ <iframe class = troll_run src="6_lab6.html" style= "top: 0rem; position: relative; left: 0rem; width: 100%; border: 0px; overflow: hidden;"scrolling="no">
+ </iframe>
 
  <div class="footer image_2">
 
@@ -140,8 +153,60 @@
              document.getElementById("birdo").src = birdo_image_gif;
          }
 
+         <!-- Java Script Functions for Slideshow -->
+         var slideIndex = 1;
+         showDivs(slideIndex);
+
+         function plusDivs(n){
+             showDivs(slideIndex += n);
+         }
+
+         function showDivs(n){
+             var i;
+             var x = document.getElementsByClassName("slides");
+             if (n > x.length){
+                 slideIndex = 1
+             }
+             if (n < 1){
+                 slideIndex = x.length;
+             }
+             for(i = 0; i < x.length; i++){
+                 x[i].style.display = "none";
+             }
+             x[slideIndex - 1].style.display = "block";
+         }
+         showDivs(1);
+     </script>
+         <script>
+
+         <!-- Java Script Functions for the Header Animations !-->
+
+         const cat_image_gif = "images/cat_animation/cat_animation_4.gif";
+         const troll_image_gif = "images/troll_animation/troll_run_animation.gif";
+         const chilli_image_gif = "images/chilli_crocodile_animation/chilli_crocodile_animation_2.gif";
+         const cute_image_gif = "images/cute_animation/cute_animation_3.gif";
+         const birdo_image_gif = "images/birdo_animation/birdo_animation.gif";
+
+         function play_cat_animation(){
+             document.getElementById("cat").src = cat_image_gif;
+         }
 
 
+         function play_troll_animation(){
+             document.getElementById("troll").src = troll_image_gif;
+         }
+
+         function play_chilli_animation(){
+             document.getElementById("chilli").src = chilli_image_gif;
+         }
+
+         function play_cute_animation(){
+             document.getElementById("cute").src = cute_image_gif;
+         }
+
+         function play_birdo_animation(){
+             document.getElementById("birdo").src = birdo_image_gif;
+         }
      </script>
 
   </body>

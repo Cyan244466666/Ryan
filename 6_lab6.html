@@ -1,7 +1,6 @@
 <html>
  <head>
  <title>HTML5 Canvas</title>
- <link rel="labstylesheet" type="text/css" href="css/labstyle.css" />
  <script>
  var x = 10;
  var playerImage;
@@ -26,7 +25,7 @@
 }
 function draw(ctx) {
 
- ctx.fillStyle = 'grey';
+ ctx.fillStyle = 'black';
 
  ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
@@ -44,9 +43,18 @@ function draw(ctx) {
  ctx.drawImage(playerImage, clip.x, clip.y, clip.w, clip.h, x, -35, clip.w, clip.h);
 
  frame += 0.15;
- if (nonInteractive == true){
+ if (nonInteractive == true && x != 2000) {
   xmov = 1;
+ }
+if (nonInteractive == true && x == 2000){
+ x = -300;
 }
+
+
+
+
+
+
 	if(xmov != 0)
 	{
 	if(xmov < 0)
