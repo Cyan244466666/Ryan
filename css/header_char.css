@@ -16,38 +16,38 @@ header.home_header{
 
 header.home_header .menu{
     position: relative;
-    top: 1.7rem; left: -1rem;
+    top: 1.7rem; left: 1rem;
     list-style-type: none;
     color: aliceblue;
 }
 
 header.home_header .cat_frame {
     position: relative;
-    top: -1.45rem;
+    top: -0rem;
     left: -1.55rem;
 }
 
 header.home_header .troll_frame{
     position: relative;
-    top: -1.45rem;
+    top: 0rem;
     left: -1.55rem;
 }
 
 header.home_header .chilli_frame{
     position: relative;
-    top: -1.45rem;
+    top: 0rem;
     left: -1.55rem;
 }
 
 header.home_header .cute_frame{
     position: relative;
-    top: -1.45rem;
+    top: 0rem;
     left: -1.55rem;
 }
 
 header.home_header .birdo_frame{
     position: relative;
-    top: -1.45rem;
+    top: 0rem;
     left: -1.55rem;
 }
 
@@ -59,7 +59,7 @@ header.home_header a:link
 
 header.home_header .instagram_icon{
     position: relative;
-    top: 10rem;
+    top: -1.5rem;
     left: -1.4rem;
 }
 header.home_header a:hover
