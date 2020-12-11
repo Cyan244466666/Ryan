@@ -6,109 +6,11 @@
     <link rel="stylesheet" type="text/css" href="css/characters.css" />
 </head>
 <body>
-<header class="home_header">
-    <img src="images/header_bar_home.png">
 
-    <ul class="menu">
-        <li class="home_header">
-            <a href="1_home_page.html" style="position: relative; color: azure">Home</a>
-            <a href="2_characters_page.html" style="position: relative; color: azure; margin-left:60px;">Characters</a>
-            <a href="3_pixel_art_page.html" style="position: relative; color: azure; margin-left:60px;">Pixel Art</a>
-            <a href="4_animation_page.html" style="position: relative; color: azure; margin-left:60px;">Animation</a>
-            <a href="5_contact_page.html" style="position: relative; color: azure; margin-left:60px;">Contact</a>
-        </li>
-    </ul>
+<iframe style="width: 800px; height: 600px; border: 0px" src="catpack_build/index.html"></iframe>
 
-    <div class="header-back">
-        <img src="images/header_home_back.png">
-    </div>
-
-    <div class="logo">
-        <img src="images/header_logo_3.png">
-    </div>
-
-    <div class="cat_frame">
-        <a href="#"> <img id="cat" onclick="play_cat_animation();" src="images/cat_animation/cat_frame.png"> </a>
-    </div>
-
-    <div class="troll_frame">
-        <a href="#"> <img id="troll" onclick="play_troll_animation();" src="images/troll_animation/troll_run_frame.png"> </a>
-    </div>
-
-    <div class="chilli_frame">
-        <a href="#"> <img id="chilli" onclick="play_chilli_animation();" src="images/chilli_crocodile_animation/chilli_crocodile_frame.png"> </a>
-    </div>
-
-    <div class="cute_frame">
-        <a href="#"> <img id="cute" onclick="play_cute_animation();" src="images/cute_animation/cute_frame.png"> </a>
-    </div>
-
-    <div class="birdo_frame">
-        <a href="#"> <img id="birdo" onclick="play_birdo_animation();" src="images/birdo_animation/birdo_frame.png"> </a>
-    </div>
-
-    <!-- Social Media Buttons -->
-
-    <div class="instagram_icon">
-        <a href="https://www.instagram.com/ryan.bolson/"> <img id="instagram_logo" src="images/instagram_icon.png"> </a>
-    </div>
-
-    </ul>
-</header>
 </body>
 <script>
 
-    <!-- Java Script Functions for the Header Animations !-->
-
-    const cat_image_gif = "images/cat_animation/cat_animation_4.gif";
-    const troll_image_gif = "images/troll_animation/troll_run_animation.gif";
-    const chilli_image_gif = "images/chilli_crocodile_animation/chilli_crocodile_animation_2.gif";
-    const cute_image_gif = "images/cute_animation/cute_animation_3.gif";
-    const birdo_image_gif = "images/birdo_animation/birdo_animation.gif";
-
-    function play_cat_animation(){
-        document.getElementById("cat").src = cat_image_gif;
-    }
-
-
-    function play_troll_animation(){
-        document.getElementById("troll").src = troll_image_gif;
-    }
-
-    function play_chilli_animation(){
-        document.getElementById("chilli").src = chilli_image_gif;
-    }
-
-    function play_cute_animation(){
-        document.getElementById("cute").src = cute_image_gif;
-    }
-
-    function play_birdo_animation(){
-        document.getElementById("birdo").src = birdo_image_gif;
-    }
-
-    <!-- Java Script Functions for Slideshow -->
-    var slideIndex = 1;
-    showDivs(slideIndex);
-
-    function plusDivs(n){
-        showDivs(slideIndex += n);
-    }
-
-    function showDivs(n){
-        var i;
-        var x = document.getElementsByClassName("slides");
-        if (n > x.length){
-            slideIndex = 1
-        }
-        if (n < 1){
-            slideIndex = x.length;
-        }
-        for(i = 0; i < x.length; i++){
-            x[i].style.display = "none";
-        }
-        x[slideIndex - 1].style.display = "block";
-    }
-    showDivs(1);
 </script>
 </html>
