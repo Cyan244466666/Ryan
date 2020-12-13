@@ -5,7 +5,7 @@
 
 
 .debug {
-    border: 0px solid red;
+    border: 1px solid red;
 }
 
 div {
@@ -89,6 +89,11 @@ img.title_2{
 img.title_3{
     padding-top: 2rem;
     width: 27%;
+}
+
+img.title_4{
+    padding-top: 2rem;
+    width: 14%;
 }
 
 img.animation_2{
