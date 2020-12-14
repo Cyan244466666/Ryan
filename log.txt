@@ -1,0 +1,335 @@
+commit 49bd911bb4833c700d6fd548b10d8634b108e58c
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 13:44:34 2020 +0000
+
+    Illustration Page: Test.
+
+commit caf8e61fabde98ed99e32fe03d183499ebb64979
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 13:33:05 2020 +0000
+
+    Illustration Page: Test.
+
+commit f77080035af2bf5fee34d2484af067a5c6d00535
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 13:23:46 2020 +0000
+
+    Illustration Page: Half of content added.
+
+commit 6cb2b1fd67406338502a0e494870f331998d3f63
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 11:59:41 2020 +0000
+
+    Illustration Page: Moving Image slide created, index.html created.
+
+commit c8fee5154a7481ecd4596f61508bbf0c3e40ff31
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 09:45:37 2020 +0000
+
+    New Catpack link.
+
+commit 55ece0c7a550838a13d42cfed4960e4358f23e60
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 09:43:54 2020 +0000
+
+    New Catpack link.
+
+commit 80905b4a269f0523b157cad2b36d9cbd524c11d8
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 20:11:53 2020 +0000
+
+    New Catpack link.
+
+commit e28f7cebd74602017f05c16815c8a4ad99fcb944
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 20:09:28 2020 +0000
+
+    Pixel Art Page: FINISHED.
+
+commit 468527720d2cd9e66c6af0c674a4e4d050cc610b
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 20:08:18 2020 +0000
+
+    Pixel Art Page: FINISHED.
+
+commit 1cac9d8211e19d879c5c767917e81ea23ed4e693
+Author: Your Name <you@example.com>
+Date:   Sat Dec 12 19:17:44 2020 +0000
+
+    Catpack Experiment 2.
+
+commit 3223825bef4185818e89e9eb33cf5302cd47691d
+Author: Your Name <you@example.com>
+Date:   Fri Dec 11 11:28:26 2020 +0000
+
+    Catpack Experiment run
+
+commit 65757eaebebde7fbbef1ed4b3b98114d962a7dc1
+Author: Your Name <you@example.com>
+Date:   Fri Dec 11 01:40:12 2020 +0000
+
+    Pixel Art Page: Most content added.
+
+commit 2dff4faa92abe77d9823efa21beedab0c17fbf7a
+Author: Your Name <you@example.com>
+Date:   Fri Dec 11 01:02:39 2020 +0000
+
+    Pixel Art Page: Half of page content added.
+
+commit fc04084012105899f0494c36f5e30f7ee009d059
+Author: Your Name <you@example.com>
+Date:   Thu Dec 10 21:23:38 2020 +0000
+
+    Added animations for Page 3.
+
+commit 4203ef168cdf23053c4deaa311d1ed2daacb1103
+Author: Your Name <you@example.com>
+Date:   Thu Dec 10 16:59:19 2020 +0000
+
+    Added footers to page 3,4, and 5.
+
+commit 45d1f3309b6634822f8b4f2058e8f0a848d2270c
+Author: Your Name <you@example.com>
+Date:   Thu Dec 10 16:42:52 2020 +0000
+
+    Characters Page: FINISHED!
+
+commit ee90c216ab51514851f1e0cd326959ccce4216eb
+Author: Your Name <you@example.com>
+Date:   Thu Dec 10 16:36:13 2020 +0000
+
+    Characters Page: FINISHED!
+
+commit ef3c741945e5a06b70782d12cc5db7e25455bea8
+Author: Your Name <you@example.com>
+Date:   Thu Dec 10 14:19:21 2020 +0000
+
+    Characters Page: Row 1, 2, and 3 complete using Flexbox.
+
+commit dfa098b9e56da7e3ac1956b57cfe4cc5fe6d01da
+Author: Your Name <you@example.com>
+Date:   Thu Dec 10 11:20:29 2020 +0000
+
+    test for flexbox alignment.
+
+commit 2b15348269dfac3866bcc7e0230153f9d874e4e1
+Author: Your Name <you@example.com>
+Date:   Wed Dec 9 16:25:14 2020 +0000
+
+    Added new Header for page 4 and 5.
+
+commit f0f4398b03291e24e36a6021a85b3f0021d34c6f
+Author: Your Name <you@example.com>
+Date:   Wed Dec 9 12:19:43 2020 +0000
+
+    Fixed Page:3,4,5 Headers and css references.
+
+commit 0e22ecd7aba43045c428fd6a5821a07a16e838fa
+Author: Your Name <you@example.com>
+Date:   Wed Dec 9 12:06:07 2020 +0000
+
+    Fixed Page:2 Header and css references.
+
+commit af3d15703ab90d6b0bb674088ec8f3878bf1cf11
+Author: Your Name <you@example.com>
+Date:   Tue Dec 8 17:30:58 2020 +0000
+
+    Footer Added.
+
+commit 3959586a1ed73703266b5fcd752066dd17337c7e
+Author: Your Name <you@example.com>
+Date:   Tue Dec 8 16:40:14 2020 +0000
+
+    Slideshow DONE!
+
+commit 970297833050991f004a3ed021e832d9251e16ab
+Author: Your Name <you@example.com>
+Date:   Tue Dec 8 15:57:27 2020 +0000
+
+    Fixed spacing issues with slideshow.
+
+commit 9b03caecbe019f2d153c1fa5f429e99b0064b053
+Author: Your Name <you@example.com>
+Date:   Mon Dec 7 21:09:43 2020 +0000
+
+    Slideshow Finish #2.
+
+commit 60fb99fff773df51ac9f23256be8d6173021e810
+Author: Your Name <you@example.com>
+Date:   Mon Dec 7 20:48:44 2020 +0000
+
+    Finished slideshow.
+
+commit 7c8f2b28e3b1ca4509d75e69bb2798efd26fe328
+Author: Your Name <you@example.com>
+Date:   Mon Dec 7 18:19:26 2020 +0000
+
+    Started making slideshow and implemented troll running at bottom of home page.
+
+commit 1e70520880fc1f7af35461d3d7a64d49e5766b68
+Author: Your Name <you@example.com>
+Date:   Mon Dec 7 15:09:50 2020 +0000
+
+    Most position issues have been fixed, home page header complete.
+
+commit f075d819df63afeb34d87c92653db35a87acc150
+Author: Your Name <you@example.com>
+Date:   Mon Dec 7 13:24:20 2020 +0000
+
+    Working on changing 'absolute positionsing' to 'relative' (+ changing 'px' to 'rem').
+
+commit e0518d1cd15f3f95fdd062de0de1ece01dec3ea7
+Author: Your Name <you@example.com>
+Date:   Fri Nov 20 12:06:47 2020 +0000
+
+    Final fixes on cat_frame.
+
+commit a6efda13bfd00e1990ec546c1eb8ffb6d7b27ed4
+Author: Your Name <you@example.com>
+Date:   Fri Nov 20 12:04:59 2020 +0000
+
+    Final fixes on pngs.
+
+commit 9201d189502218511fc4753d4080e07b5731a294
+Author: Your Name <you@example.com>
+Date:   Fri Nov 20 12:02:36 2020 +0000
+
+    Final fixes on pngs.
+
+commit 2aa9e3e79e393cd47647f7766fc8bd1ec127f4ee
+Author: Your Name <you@example.com>
+Date:   Fri Nov 20 11:14:06 2020 +0000
+
+    Changed all png files names from upper case to lower case (e.g. birdo_frame.PNG is now birdo_frame.png).
+
+commit 77a7cd69408f99bf8d8610e2aebc9e654d2f4df2
+Author: Your Name <you@example.com>
+Date:   Fri Nov 20 11:03:28 2020 +0000
+
+    Fixed png missing '</a>
+
+commit 0743d72ba88ad8dbf138cf27aff95e2d4df40838
+Author: Your Name <you@example.com>
+Date:   Fri Nov 20 10:57:05 2020 +0000
+
+    Changed cat_frame.PNG to cat_frame.png
+
+commit dcc10892df858d97b8b0858abb8d8887e651b68b
+Author: Your Name <you@example.com>
+Date:   Mon Nov 16 23:01:50 2020 +0000
+
+    Lab 6 - Fixed Troll's horizontal movement (with animations).
+
+commit 9585503646ffcf2bd293f8371c136b7c36e327f5
+Author: Your Name <you@example.com>
+Date:   Tue Nov 10 08:04:02 2020 +0000
+
+    Lab 6 - Drawing canvas and animation added on page 6.
+
+commit caee85eff072d2d77070e1d27cc49ab9d11b0594
+Author: Your Name <you@example.com>
+Date:   Tue Oct 27 17:42:28 2020 +0000
+
+    Headers art for pixelart and characters pages is DONE!
+
+commit 568f48a8737c431113d66e465888279dd0cf58ce
+Author: Your Name <you@example.com>
+Date:   Tue Oct 27 12:48:04 2020 +0000
+
+    Header gifs: Cute DONE!
+
+commit 3a6457b20dee11c3901b9055b68b9517528e6c01
+Author: Your Name <you@example.com>
+Date:   Tue Oct 27 12:36:52 2020 +0000
+
+    Header gifs: Cat, Troll, and Crocodile DONE!
+
+commit ec55c44aa137535584a4038b8dde422f0f0b2699
+Author: Your Name <you@example.com>
+Date:   Tue Oct 27 10:00:46 2020 +0000
+
+    Started cat gif.
+
+commit c55f15f083fc85586a14286824c846aefea9ac49
+Author: Your Name <you@example.com>
+Date:   Tue Oct 27 08:22:54 2020 +0000
+
+    Added hover feature to Header hyperlinks
+
+commit c044baed35ec3baf8b99af1098c65b4584abd25d
+Author: Your Name <you@example.com>
+Date:   Mon Oct 26 17:41:53 2020 +0000
+
+    26th Oct DT Lab - Drop down with Java Script
+
+commit edab6110747d3ce90aa539e0fb31b95448ef6efe
+Author: Your Name <you@example.com>
+Date:   Mon Oct 26 15:32:55 2020 +0000
+
+    Experimenting with Animatios.
+
+commit 3be05fdbfb9081bb760778fbecc1f71f8277b068
+Author: Your Name <you@example.com>
+Date:   Mon Oct 26 12:58:25 2020 +0000
+
+    Finshed Base for Header
+
+commit e5b3078edaa455aa95929558b6c4ec4adf26de14
+Author: Your Name <you@example.com>
+Date:   Mon Oct 26 10:33:15 2020 +0000
+
+    Began adding header
+
+commit 1bffb99a087b8509d51125d38edb2690bdfae112
+Author: Your Name <you@example.com>
+Date:   Tue Oct 20 15:05:00 2020 +0100
+
+    Testing Basic HTML elements and attributes
+
+commit a1a52f78536a945e66541c127a4b8f7eda1b3d92
+Author: Your Name <you@example.com>
+Date:   Mon Oct 19 17:51:42 2020 +0100
+
+    Change 5
+
+commit c83e6277e43d5051cb54407eea68b30f9a7b6243
+Author: Your Name <you@example.com>
+Date:   Mon Oct 19 16:05:43 2020 +0100
+
+    Change 5
+
+commit 1da96cac8b98635e99cfe25234535e9cc599c275
+Author: Your Name <you@example.com>
+Date:   Sun Oct 18 14:09:42 2020 +0100
+
+    Change 5
+
+commit 078c17811ef36f065d24cdd60a7944bae629d9fe
+Author: Your Name <you@example.com>
+Date:   Sun Oct 18 13:54:30 2020 +0100
+
+    Change 4
+
+commit 156a6e747bb4f254388e20f3fc1bac6fb32d9a13
+Author: Your Name <you@example.com>
+Date:   Sun Oct 18 13:29:48 2020 +0100
+
+    Change 3
+
+commit 461618fa468cf6c8090b2770dd5be91d45983b65
+Author: Your Name <you@example.com>
+Date:   Sun Oct 18 11:56:51 2020 +0100
+
+    Change 2
+
+commit caf34b3e632671e985b5a1193aa4146dae6a7cd5
+Author: Your Name <you@example.com>
+Date:   Sun Oct 18 11:25:01 2020 +0100
+
+    Change 1
+
+commit 4144d93235c9a64ec1f816399e3102480e1f3795
+Author: Cyan244466666 <44552719+Cyan244466666@users.noreply.github.com>
+Date:   Mon Oct 12 17:49:24 2020 +0100
+
+    Initial commit
