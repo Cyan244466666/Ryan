@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>HTML5 Canvas</title>
+    <script>
+        var x = -7000;
+        var playerImage;
+        var frame = 1;
+        var dir = 0;
+        var xmov = 0;
+        var nonInteractive = true;
+        function main()
+        {
+
+            var canvas = document.getElementById("canvas");
+            canvas.width = window.innerWidth;
+            canvas.height = 1080;
+
+
+            var ctx = canvas.getContext('2d');
+            load();
+
+            draw(ctx);
+
+
+        }
+        function draw(ctx) {
+
+            ctx.fillStyle = 'black';
+
+            ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+
+            var clip = {};
+            clip.x = 0;
+            clip.y = 0;
+            clip.w = playerImage.width;
+            clip.h = playerImage.height;
+
+
+            var clamp = parseInt(frame) % 1;
+            clip.x += (clip.w * clamp);
+            clip.y += clip.h * dir;
+
+            ctx.drawImage(playerImage, clip.x, clip.y, clip.w, clip.h, x, 60, clip.w, clip.h);
+
+            xmov = -1;
+            frame += 0.15;
+            if (nonInteractive == true && x != 2000) {
+                xmov = 1;
+            }
+            if (nonInteractive == true && x == 2000){
+                x = -8850;
+            }
+
+
+
+            if(xmov != 0)
+            {
+                if(xmov < 0)
+                {
+                    dir = 1;
+                }
+                else
+                {
+                    dir = 0;
+                }
+                x += xmov;
+            }
+            else
+            {
+                frame = 0;
+            }
+
+
+
+            window.requestAnimationFrame(function(){draw(ctx);});
+
+        }
+
+        function load()
+        {
+            playerImage = new Image();
+
+            playerImage.src = "moving_images.png";
+        }
+
+
+
+
+
+        window.onload = main;
+
+    </script>
+</head>
+<body style="margin: 0px;">
+
+<canvas id="canvas" style="background: black"></canvas>
+</body>
+</html>
