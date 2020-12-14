@@ -5,7 +5,7 @@
 
 
 .debug {
-    border: 0px solid red;
+    border: 1px solid red;
 }
 
 div {
@@ -66,8 +66,20 @@ img.image_3 {
     height: auto;
 }
 
+img.image_4 {
+    width: 65%;
+    height: auto;
+    justify-content: flex-end;
+}
+
 img.image_5 {
     width: 15%;
+    height: auto;
+    justify-content: flex-end;
+}
+
+img.image_6 {
+    width: 80%;
     height: auto;
     justify-content: flex-end;
 }
