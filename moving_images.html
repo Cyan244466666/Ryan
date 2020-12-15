@@ -2,7 +2,7 @@
 <head>
     <title>HTML5 Canvas</title>
     <script>
-        var x = -7000;
+        var x = -4500;
         var playerImage;
         var frame = 1;
         var dir = 0;
@@ -12,8 +12,8 @@
         {
 
             var canvas = document.getElementById("canvas");
-            canvas.width = window.innerWidth;
-            canvas.height = 1080;
+            canvas.width = 2000;
+            canvas.height = 720;
 
 
             var ctx = canvas.getContext('2d');
@@ -42,7 +42,7 @@
 
             ctx.drawImage(playerImage, clip.x, clip.y, clip.w, clip.h, x, 60, clip.w, clip.h);
 
-            xmov = -1;
+
             frame += 0.15;
             if (nonInteractive == true && x != 2000) {
                 xmov = 1;
@@ -80,7 +80,7 @@
         {
             playerImage = new Image();
 
-            playerImage.src = "moving_images_2.jpg";
+            playerImage.src = "moving_images_3.jpg";
         }
 
 
