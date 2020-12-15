@@ -1,0 +1,180 @@
+html, body{
+
+    background-color: black;
+    color: aliceblue;
+}
+
+header.home_header{
+    position: relative;
+    margin: 27px auto 0 auto;
+    width: 750px;
+    height: 209px;
+    padding: 3rem;
+    top: -1rem; left: -1rem;
+    font: 20px/22px "Helvetica", Times, serif;
+}
+
+header.home_header .menu{
+    position: relative;
+    top: 1.7rem; left: 1rem;
+    list-style-type: none;
+    color: aliceblue;
+}
+
+header.home_header .cat_frame {
+    position: relative;
+    top: 0rem;
+    left: -1.55rem;
+}
+
+header.home_header .troll_frame{
+    position: relative;
+    top: 0rem;
+    left: -1.55rem;
+}
+
+header.home_header .chilli_frame{
+    position: relative;
+    top: 0rem;
+    left: -1.55rem;
+}
+
+header.home_header .cute_frame{
+    position: relative;
+    top: 0rem;
+    left: -1.55rem;
+}
+
+header.home_header .birdo_frame{
+    position: relative;
+    top: 0rem;
+    left: -1.55rem;
+}
+
+header.home_header a:link
+{
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+header.home_header .instagram_icon{
+    position: relative;
+    top: 10rem;
+    left: -1.4rem;
+}
+header.home_header a:hover
+{
+    opacity: 1;
+    color: aliceblue;
+}
+
+
+header.home_header .header-back{
+    position: relative;
+    top: -14.5rem;
+    left: 16.3rem;
+}
+
+header.home_header .logo{
+    position: relative;
+    top: -22rem;
+    left: 16.9rem;
+}
+
+
+div.cat_frame img{
+    width: 180px;
+    height: auto;
+    display: block;
+    top: -190px; left: -20px;
+    position: absolute;
+
+}
+
+div.cat_animation img{
+    width: 190px;
+    height: auto;
+    display: block;
+    top: -200px; left: -20px;
+    position: absolute;
+
+}
+
+div.troll_frame img{
+    width: 180px;
+    height: auto;
+    display: block;
+    top: -153px; left: 115px;
+    position: absolute;
+
+}
+
+div.troll_animation img{
+    width: 180px;
+    height: auto;
+    display: block;
+    top: -153px; left: 115px;
+    position: absolute;
+
+}
+
+div.chilli_frame img{
+    width: 180px;
+    height: auto;
+    display: block;
+    top: -140px; left: 270px;
+    position: absolute;
+
+}
+
+div.chilli_animation img{
+    width: 180px;
+    height: auto;
+    display: block;
+    top: -140px; left: 270px;
+    position: absolute;
+
+}
+
+div.cute_frame img{
+    width: 150px;
+    height: auto;
+    display: block;
+    top: -150px; left: 435px;
+    position: absolute;
+
+}
+
+div.cute_animation img{
+    width: 150px;
+    height: auto;
+    display: block;
+    top: -150px; left: 435px;
+    position: absolute;
+
+}
+
+div.birdo_frame img{
+    width: 140px;
+    height: auto;
+    display: block;
+    top: -130px; left: 575px;
+    position: absolute;
+
+}
+
+div.birdo_animation img{
+    width: 140px;
+    height: auto;
+    display: block;
+    top: -130px; left: 575px;
+    position: absolute;
+
+}
+
+div.instagram_icon img{
+    width: 28px;
+    top: -364px; left: 690px;
+    position: absolute;
+}
+
